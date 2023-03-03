@@ -1,0 +1,16 @@
+:root {
+  --main-bg-color: rgb(49, 48, 48);
+
+  --content-width: 75vw;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
